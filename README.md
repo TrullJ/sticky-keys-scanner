@@ -6,9 +6,6 @@ You can either import and run this PowerShell function locally on the suspected 
 or use PowerShell remoting to run the scanner across multiple computers using the Invoke-Command
 cmdlet.
 
-Example usage:
-
-
 What are Sticky Key backdoors?
 
 Sticky Keys are part of the Windows operating system and are designed for people with difficulty
@@ -27,6 +24,7 @@ For example, windows_key+u key combination would be pressed by the attacker to g
 prompt if the utilman.exe program was targeted.
 
 Credits:
+
 http://files.sans.org/summit/Threat_Hunting_Incident_Response_Summit_2016/PDFs/Proactive-APT-Hunting-Style-Joshua-Theimer-and-Hao-Wang-EY.pdf
 http://carnal0wnage.attackresearch.com/2012/04/privilege-escalation-via-sticky-keys.html
 https://zachgrace.com/2015/03/23/hunting-sticky-keys-backdoors.html
