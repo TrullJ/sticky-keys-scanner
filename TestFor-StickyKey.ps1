@@ -112,7 +112,7 @@
 
     if ($cmdHash.Hash -eq $magnifyHash.Hash) {
 
-        Write-Output "Possible backdoor found. magnify.exe replaced with powershell.exe"
+        Write-Output "Possible backdoor found. magnify.exe replaced with cmd.exe"
         Write-Host
         Write-Output "Checked the following hashes:"
         Write-Output "cmd.exe: $($cmdHash.Hash)"
@@ -145,7 +145,7 @@
 
     if ($cmdHash.Hash -eq $displayswitchHash.Hash) {
 
-        Write-Output "Possible backdoor found. displayswitch.exe replaced with powershell.exe"
+        Write-Output "Possible backdoor found. displayswitch.exe replaced with cmd.exe"
         Write-Host
         Write-Output "Checked the following hashes:"
         Write-Output "cmd.exe: $($cmdHash.Hash)"
